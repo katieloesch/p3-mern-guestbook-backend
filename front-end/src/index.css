@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Architects+Daughter&family=Great+Vibes&family=Lobster&family=Merriweather+Sans&family=Nunito+Sans:ital@1&display=swap');
+
+
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #F1EAE0;
+}
