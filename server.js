@@ -17,8 +17,21 @@ const app = express()
 //Middleware
 //Set CORS headers on response from this API use the 'cors' NPM package
 app.use(cors({
-    origin:'http://localhost:3000'
+    origin:'*'
 }))
+
+//Cross Origin Handle Middleware
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 
+    'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+    );
+    if( req.method === 'OPTIONS'){
+      req.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET');
+      return res.status(200).json({});
+    }
+    next();
+  });
 
 //Bodyparser
 app.use(express.json())

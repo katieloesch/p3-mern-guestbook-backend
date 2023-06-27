@@ -19,6 +19,8 @@ router.get("/posts", (req, res) => {
     });
 });
 
+
+
 //Create Post
 
 router.post("/posts", (req, res) => {
