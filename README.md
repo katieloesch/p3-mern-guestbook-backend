@@ -18,18 +18,21 @@
 A Full-Stack Guestbook application, built from scratch within 9 days by a team of 4 developers using the MERN stack (MongoDB, Express, React & Node). This group project was the third application built as part of the curriculum for the General Assembly Software Engineering Immersive Course.
 <br>
 
-The website allows users to sign up for an account and subsequently log into and out of their account. They also have the option to edit their username and password once they are logged in, or delete their account. Authentication was achieved by using the Node ExpressJS and Passport.js packages.<br>
+The fully responsive website allows users to sign up for an account and subsequently log into and out of their account. They also have the option to edit their username and password once they are logged in, or delete their account. Authentication was achieved by using the Node ExpressJS and Passport.js packages.<br>
 Users can also read, post, edit and delete comments in the Guestbook application, the concept of which was tailored around a specific event type: a divorce party. The idea behind this concept was to support recent divorcees by enjoying their divorce party to the fullest and later re-live all the happy memories.
 
 <img src='./assets/Layout.png' alt="project landing page">
 
 ## <a name="deployment-link"></a> 2. Deployment link
 
-frontend:
-https://hpramanathan.github.io/project3-mernstack-app/
+- frontend repository:
+  https://github.com/katieloesch/p3-mern-guestbook-frontend
 
-backend heroku:
-https://mern-guestbook-8a2170773d42.herokuapp.com/
+- frontend deployment:
+  https://mern-guestbook.katieloesch.co.uk/
+
+- backend deployment on heroku:
+  https://mern-guestbook-8a2170773d42.herokuapp.com
 
 ## <a name="installation"></a> 3. Installation
 
